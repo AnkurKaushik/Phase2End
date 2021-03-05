@@ -29,4 +29,24 @@
     <servlet-name>UserLogin</servlet-name>
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>dashboard</display-name>
+    <servlet-name>dashboard</servlet-name>
+    <servlet-class>dashboard</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dashboard</servlet-name>
+    <url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>registrationpage</display-name>
+    <servlet-name>registrationpage</servlet-name>
+    <servlet-class>registrationpage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registrationpage</servlet-name>
+    <url-pattern>/registration</url-pattern>
+  </servlet-mapping>
 </web-app>

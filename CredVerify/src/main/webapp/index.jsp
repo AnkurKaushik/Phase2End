@@ -2,7 +2,7 @@
 <style>
 
 </style>
-<body>
+<body style = 'background-color: cyan'>
 	<div style="text-align:center">
 		
 		<h2>Verification Home Page</h2>
